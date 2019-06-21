@@ -1,12 +1,17 @@
-CO2 + Temperature sensor
+# CO2 + Temperature sensor based on MT8057 and ESP
 
 --------------------------------------------------------------
-Показыввет температуру и CO2, отправляет по mqtt.
+## Что умеет
+* Получает температуру и CO2, отправляет по mqtt
+* При старте создает точку доступа с возможностью настройки WiFi соединения и MQTT сервера
+* OTA обновления через Platform.io и логи по Telnet
 
-Датчик CO2 MT8057
-Wemos D1 Mini
+## Что использовалось
+* [Датчик CO2 MT8057](https://masterkit.ru/shop/1266110)
+* Wemos D1 Mini
 
-Подключение MT8057:
+## Подключение MT8057
+Внутри есть разъём с четырьмя пинами
 ```
   -------
  |O # # #|
@@ -15,8 +20,8 @@ Wemos D1 Mini
   1 2 3 4
   | | | |
  1 pin - empty
- 2 pin - Digital Pin 16
- 3 pin - Digital Pin 14
+ 2 pin - Digital Pin (see src/config/hardware.h)
+ 3 pin - Digital Pin (see src/config/hardware.h)
  4 pin - GND
 ```
 
