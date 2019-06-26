@@ -19,6 +19,5 @@ void loop() {
     otaLoop();
     debugLoop();
   }
-  // TODO: Wait loop after tick
   mt8057Loop();
 }
