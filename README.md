@@ -30,3 +30,9 @@
 * https://habr.com/company/dadget/blog/394333/
 * https://revspace.nl/CO2MeterHacking
 * https://github.com/revspace/co2sensor
+
+---
+
+Enjoy my work? Help me out for a couple of :beers: or a :coffee:!
+
+[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/qcDXvboAE)
